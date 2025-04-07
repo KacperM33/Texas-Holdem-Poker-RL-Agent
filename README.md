@@ -1,6 +1,6 @@
 # 🃏 Texas Hold'em Poker RL Agent 
 
-A **Machine Learning agent** for **Texas Hold'em Poker**, developed using **Reinforcement Learning** techniques specifically the **Dueling Deep Q-Network (Dueling DQN)** algorithm variant and evaluated within the RLCard environment.
+A **Machine Learning agent** for **Texas Hold'em Poker**, developed using a **Reinforcement Learning** technique specifically, the **Dueling Deep Q-Network (Dueling DQN)** algorithm variant and evaluated within the RLCard environment.
 <br>The project investigates the impact of **Neural Network Hyperparameter Tuning** on model performance, with both manual hyperparameter tuning and automatic tuning using Optuna.
 
 ## 📚 About This Project
