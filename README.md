@@ -1,8 +1,7 @@
 # 🃏 Texas Hold'em Poker RL Agent 
 
-A Reinforcement Learning agent for Texas Hold'em Poker, using the RLCard environment for agent evaluation. 
-The project focuses on developing the **Reinforcement Learning** agent using the **Dueling Deep Q-Network** algorithm variant and 
-examining the impact of neural network hyperparameter tuning on model performance, with both manual hyperparameter tuning and automatic tuning using Optuna.
+A **Machine Learning agent** for **Texas Hold'em Poker**, developed using **Reinforcement Learning** techniques specifically the **Dueling Deep Q-Network (Dueling DQN)** algorithm variant and evaluated within the RLCard environment.
+<br>The project investigates the impact of **Neural Network Hyperparameter Tuning** on model performance, with both manual hyperparameter tuning and automatic tuning using Optuna.
 
 ## 📚 About This Project
 This project was developed as part of my Engineering thesis in Computer Science. The goal was to build a **Reinforcement Learning** agent for Texas Hold'em Poker and explore the impact of neural network hyperparameter tuning on model performance.
@@ -150,8 +149,10 @@ The table presents their results:
 </table>
 
 ### Conclusion
-The results indicate that the developed **Dueling DQN Agent** achieves
-performance comparable to the built-in DQN agent in RLCard.
+The developed **Dueling DQN Agent** achieves performance comparable to the built-in **DQN agent provided by RLCard**.<br>
+Furthermore, while **manual hyperparameter tuning** produced results similar to **automatic tuning with Optuna**, it is inherently 
+less consistent due to its trial-and-error nature. In contrast, automatic methods like **Optuna** offer a more reliable and 
+efficient approach to finding the best performing hyperparameter configurations.
 
 ## 📂 Project Structure
 
